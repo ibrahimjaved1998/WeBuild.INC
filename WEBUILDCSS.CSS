@@ -1,0 +1,127 @@
+/* Reset default styles and set the font family */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background color */
+}
+
+/* Header styles */
+header {
+    background-color: #f0ffff; /* Dark background color for the header */
+    color: #000080; /* Grey text color for the header */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    color: #000080;
+    font-size: 50%; /* Increase text size by 50% */
+}
+
+nav a {
+    text-decoration: none;
+    color: #808080;
+    font-weight: bold;
+}
+
+/* Section styles */
+section {
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; /* Slightly larger space between sections */
+    color: #808080;
+}
+
+/* Heading styles */
+h2 {
+    color: #333; /* Dark text color for headings */
+    margin-top: 0;
+    color: #000080;
+}
+
+/* List styles */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding: 0;
+}
+
+/* Placeholder for images */
+.image-placeholder {
+    width: 100%;
+    height: 400px; /* Increased height for images */
+    background-color: #eee;
+    background-image: url('placeholder-image.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px; /* Slight margin above images */
+}
+
+/* Footer styles */
+footer {
+    background-color: #f0ffff; /* Dark background color for the footer */
+    color: #000080; /* White text color for the footer */
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Social media icon styles */
+.social-media-icons a img {
+    width: 16px; /* Adjust the width to match the text size */
+    height: 16px; /* Adjust the height to match the text size */
+    margin: 0 10px; /* Add space between social media icons */
+    transition: transform 0.2s ease-in-out; /* Add a smooth hover effect */
+}
+
+/* Hover effect for social media icons */
+.social-media-icons a:hover img {
+    transform: scale(1.1);
+}
+
+/* CSS for Contact and About Images */
+.image-placeholder.contact-image,
+.image-placeholder.about-image,
+.image-placeholder.founder-image {
+    display: flex; /* Use flexbox to place the images side by side */
+    align-items: center; /* Center align the images vertically */
+    justify-content: center; /* Center align the images horizontally */
+    height: 700px; /* Set a fixed height for these image placeholders */
+}
+
+/* Set a fixed size for the images inside image placeholders */
+.image-placeholder img {
+    width: 50%; /* Fill the container horizontally */
+    height: 90%; /* Fill the container vertically */
+    margin: 20px; /* Add equal margin on all sides */
+    object-fit: cover; /* Fill the container while maintaining aspect ratio */
+    /* Add a blurred border effect */
+}
+
+/* Add padding to ensure the ends are aligned at the top and bottom */
+.image-placeholder img:first-child {
+    padding-top: 10px;
+}
+
+.image-placeholder img:last-child {
+    padding-bottom: 10px;
+}
+
+/* Add hover effect to the images inside image placeholders */
+.image-placeholder img:hover {
+    transform: scale(1.1); /* Increase the size of the image by 10% on hover */
+}
+
+/* Additional styles for the founder image if needed */
+.image-placeholder.founder-image {
+    /* Add specific styles for the founder image if required */
+}
